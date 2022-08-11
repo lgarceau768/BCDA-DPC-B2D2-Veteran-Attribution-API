@@ -1,5 +1,8 @@
 # Veteran Attribution API OKRs draft
 
+[![hackmd-github-sync-badge](https://hackmd.io/cwYy9UMJTw-2mntAE2A-Bg/badge)](https://hackmd.io/cwYy9UMJTw-2mntAE2A-Bg)
+
+
 ###### tags: `Fearless` `BCDA`
 
 ### OKR 1 MVP "Data Management" EXAMPLE
