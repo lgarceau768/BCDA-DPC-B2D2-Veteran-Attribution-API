@@ -10,7 +10,7 @@ This project is the next phase of the recompete.
 - [DPC Team Notes to self :notebook_with_decorative_cover:](/QkQD5B4KRQm4ha0uLVE10Q) 
 - My [notes from the last pitch phase](https://docs.google.com/document/d/1xIRg033qUS9ah_BRTk-im4Gudj6KmoBq7T9tXMCNQR0/edit?usp=sharing)
 - [Team Working Agreement Aug 9, 2022](https://docs.google.com/document/d/1BHS-bpRGAfv3KsFnEDDMxCXi4vqAhVCY/edit#heading=h.1fob9te)
-- Github repo: :lock: `https://github.com/FearlessSolutions/BCDA-DPC-B2D2-Veteran-Attribution-API`
+- Github repo: :lock: https://github.com/FearlessSolutions/BCDA-DPC-B2D2-Veteran-Attribution-API
 - [Team Kanban board on Github](https://github.com/orgs/FearlessSolutions/projects/1/views/1)
 - [Veteran Attribution API PRD](https://hackmd.io/@mrmetaverse/b2d2-tech-challenge-PRD) Addresses the Product requirements section 
 
