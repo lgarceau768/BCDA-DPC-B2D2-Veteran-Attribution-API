@@ -1,4 +1,4 @@
-# Veteran Attribution API PRD
+# Veteran Attribution API PRD (draft)
 
 See [BCDA PHASE II Tech Challenge: B2D2](/sbj3SSUBQcS0MopOHU_mJg) for the main README and links. This document is solely for the Product Requirements as it pertains to the Product Delivery section of the ["Success Criteria"](https://hackmd.io/sbj3SSUBQcS0MopOHU_mJg?both#Success-Criteria) outlined in the tech challenge. 
 
