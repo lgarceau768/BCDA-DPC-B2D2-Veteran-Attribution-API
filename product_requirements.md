@@ -71,14 +71,14 @@ User story format: As a `user persona`, I want `goal` so that `some reason`.
 
 ### **Data Elements**
 
-You have been provided the following datasets to develop the minimum viable product of the Veteran Attribution API:
+**You have been provided the following datasets to develop the minimum viable product of the Veteran Attribution API:**
 
 * [**CMS_MC_Patients.json**](data/CMS_MC_Patients.json) - Contains the patient information associated with the individuals covered under Medicare (FHIR bundle).
 * [**CMS_MC_Coverage.json**](data/CMS_MC_Coverage.json) - Contains the Part A, Part B, and Part C coverage data associated with the individuals covered under Medicare (FHIR bundle).
 * [**VA_Patients.json**](data/VA_Patients.json) - Contains the Veterans covered under the VA Health Benefits Program that must be matched against the Medicare recipients (FHIR bundle).
 * [**VA_Coverage.json**](data/VA_Coverage.json) - Contains the coverage data associated with the individuals covered under the VA Health Benefits Program (FHIR bundle).
 
-You must use the provided data sets for this technical challenge. Your solution must include the tools and/or scripts used to ingest the provided data, which may be used to ingest similarly formatted data. You may transform the data as needed. If a data discrepancy, gap, or mismatch is found, you must document the issue and explain how you would resolve it. If needed, you can generate additional synthetic data to complete this challenge. You must explain all of your technical decisions.
+**You must use the provided data sets for this technical challenge**. Your solution must include the tools and/or scripts used to ingest the provided data, which may be used to ingest similarly formatted data. You may transform the data as needed. If a data discrepancy, gap, or mismatch is found, you must document the issue and explain how you would resolve it. If needed, you can generate additional synthetic data to complete this challenge. You must explain all of your technical decisions.
 
 
 ### Tech spec
@@ -99,11 +99,10 @@ List all other non-functional requirements
 ## OKRs
 Working through them here: [Veteran Attribution API OKRs draft](/cwYy9UMJTw-2mntAE2A-Bg)
 
-### Objective: 
-#### Key Result: 
+### Objective: TBD
 #### Key Result: 
 
-### Objective: 
+### Objective: TBD
 #### Key Result:
 
 
@@ -134,7 +133,7 @@ List any risks and potential mitigation
 
 # :thinking_face: Key Assumptions 
 
-The following assumptions should also be considered in designing and implementing the technical exercise submission:
+**The following assumptions should also be considered in designing and implementing the technical exercise submission:**
 
 * The evaluation environment will reside in the AWS East Commercial cloud.
 * All AWS services currently approved for FedRAMP Moderate (East/West) or undergoing JAB Review or 3PAO Assessment can be used. If in doubt, please submit any questions to the Contracting Officer for clarification.
