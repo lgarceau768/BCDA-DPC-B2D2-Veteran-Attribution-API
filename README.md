@@ -17,7 +17,6 @@ This project is the next phase of the recompete.
 
 
 
-
 ### Who is on the team? 
 
 <details>
@@ -93,7 +92,7 @@ You are part of a newly onboarded CMS agile team that has been tasked with build
 > :notebook:[Veteran Attribution API PRD](/HVEGF4jcTk-Vul1v_1b-gw)
 
 
-The Veteran Attribution API implementation must:
+**The Veteran Attribution API implementation must:**
 
 1. Have an authentication/authorization mechanism.
 2. Implement a mechanism to match patients using the CMS and VA data provided and identify the population covered under both programs.
@@ -102,7 +101,7 @@ The Veteran Attribution API implementation must:
 5. Be FHIR Release 4 (R4) compliant (for all the bulk and non-bulk operations and functionality).
 6. Be built using Java, Go, Ruby or Python as the main programming language of the core API solution.
 
-As part of your submission, you must:
+**As part of your submission, you must:**
 
 * Submit a working solution of the Veteran Attribution API including any relevant and supporting documentation.
 * Track any relevant product work in a Kanban board format.
@@ -116,14 +115,14 @@ As part of your submission, you must:
 
 ### **Data Elements**
 
-You have been provided the following datasets to develop the minimum viable product of the Veteran Attribution API:
+**You have been provided the following datasets to develop the minimum viable product of the Veteran Attribution API:**
 
 * [**CMS_MC_Patients.json**](data/CMS_MC_Patients.json) - Contains the patient information associated with the individuals covered under Medicare (FHIR bundle).
 * [**CMS_MC_Coverage.json**](data/CMS_MC_Coverage.json) - Contains the Part A, Part B, and Part C coverage data associated with the individuals covered under Medicare (FHIR bundle).
 * [**VA_Patients.json**](data/VA_Patients.json) - Contains the Veterans covered under the VA Health Benefits Program that must be matched against the Medicare recipients (FHIR bundle).
 * [**VA_Coverage.json**](data/VA_Coverage.json) - Contains the coverage data associated with the individuals covered under the VA Health Benefits Program (FHIR bundle).
 
-You must use the provided data sets for this technical challenge. Your solution must include the tools and/or scripts used to ingest the provided data, which may be used to ingest similarly formatted data. You may transform the data as needed. If a data discrepancy, gap, or mismatch is found, you must document the issue and explain how you would resolve it. If needed, you can generate additional synthetic data to complete this challenge. You must explain all of your technical decisions.
+**You must use the provided data sets for this technical challenge.** Your solution must include the tools and/or scripts used to ingest the provided data, which may be used to ingest similarly formatted data. You may transform the data as needed. If a data discrepancy, gap, or mismatch is found, you must document the issue and explain how you would resolve it. If needed, you can generate additional synthetic data to complete this challenge. You must explain all of your technical decisions.
 
 ### **Additional Resources**
 
