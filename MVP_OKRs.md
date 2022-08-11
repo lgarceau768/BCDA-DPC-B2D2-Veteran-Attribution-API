@@ -2,7 +2,6 @@
 
 [![hackmd-github-sync-badge](https://hackmd.io/cwYy9UMJTw-2mntAE2A-Bg/badge)](https://hackmd.io/cwYy9UMJTw-2mntAE2A-Bg)
 
-
 ###### tags: `Fearless` `BCDA`
 
 ### OKR 1 MVP "Data Management" EXAMPLE
@@ -34,6 +33,13 @@
 >KR 4.2 Experiment in automating 4 steps of the onboarding AuthN process
 
 
-
 ## Extras 
+
+So what are the key objectives highlighted in the readme? 
+
+- a 
+- b
+- c
+
+
 ![](https://hackmd.io/_uploads/By8canzC5.png)
