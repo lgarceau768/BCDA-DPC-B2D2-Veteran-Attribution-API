@@ -32,15 +32,19 @@ This is still TBD, but the essence of what CMS hopes to see is there.
 # 👩‍🎤 Users
 User story format: As a `user persona`, I want `goal` so that `some reason`.
 
-- 👩‍"**dual beneficiaries**": *when looking at the population of individuals covered by both Medicare and the VA health benefits programs, each of the agencies possess separate pieces of the data puzzle. Before CMS can send Medicare claims data to the VA, both agencies need to exchange demographic and coverage information of its patients and agree on a method to identify and build*
-    - As a dual beneficiary I want information about my coverage to be safely communicated between the VA and Medicare, so that I can get the coverage I need without having my sensitive data leaked to nefarious people. 
-- 👩‍**the VA**: The VA Submits their patient data to CMS using FHIR 
-    - As the VA I need to exchange demographic and claims information of our patients with CMS so that we can ensure beneficiaries get the coverage they are eligible for and need. 
-    - As the VA I need to agree with CMS on a method to identify and build this population on an ongoing basis, to ensure dual-beneficiaries get the coverage they need. 
-- 👩‍**CMS**: Receives the data, and query the Patient and Coverage data individually.
-    - As CMS I need to query the patient and coverage data individually, so that I may securely confirm eligibility? 
-    - As CMS I need to exchange demographic and claims information of our patients with the VA so that we can ensure beneficiaries get the coverage they are eligible for and need. 
-    - As CMS I need to agree with the VA on a method to identify and build this population on an ongoing basis, to ensure dual-beneficiaries get the coverage they need. 
+## 👩‍the VA: The VA Submits their patient data to CMS using FHIR 
+- As the **VA** I need to exchange demographic and claims information of our patients with CMS so that we can ensure beneficiaries get the coverage they are eligible for and need. 
+- As the **VA** I need to agree with CMS on a method to identify and build this population on an ongoing basis, to ensure dual-beneficiaries get the coverage they need. 
+
+## 👩‍**CMS**: Receives the data, and query the Patient and Coverage data individually.
+- As **CMS** I need to query the patient and coverage data individually, so that I may securely confirm eligibility? 
+- As **CMS** I need to exchange demographic and claims information of our patients with the VA so that we can ensure beneficiaries get the coverage they are eligible for and need. 
+- As **CMS** I need to agree with the VA on a method to identify and build this population on an ongoing basis, to ensure dual-beneficiaries get the coverage they need. 
+
+## 👩‍dual beneficiaries: 
+- As a **dual beneficiary** I want information about my coverage to be safely communicated between the VA and Medicare, so that I can get the coverage I need without having my sensitive data leaked to nefarious people. 
+
+>when looking at the population of individuals covered by both Medicare and the VA health benefits programs, each of the agencies possess separate pieces of the data puzzle. Before CMS can send Medicare claims data to the VA, both agencies need to exchange demographic and coverage information of its patients and agree on a method to identify and build
 
 # 👩‍💻 Implementation
 
@@ -93,6 +97,7 @@ List all other non-functional requirements
 # 🙆‍♀️ Release Criteria
 
 ## OKRs
+Working through them here: [Veteran Attribution API OKRs draft](/cwYy9UMJTw-2mntAE2A-Bg)
 
 ### Objective: 
 #### Key Result: 
@@ -126,6 +131,21 @@ List anything that is out of scope, this could be user persona's, user stories.
 # 🤦‍♀️ Risks
 
 List any risks and potential mitigation
+
+# :thinking_face: Key Assumptions 
+
+The following assumptions should also be considered in designing and implementing the technical exercise submission:
+
+* The evaluation environment will reside in the AWS East Commercial cloud.
+* All AWS services currently approved for FedRAMP Moderate (East/West) or undergoing JAB Review or 3PAO Assessment can be used. If in doubt, please submit any questions to the Contracting Officer for clarification.
+* It is not required that the solution is exclusively based on AWS services.
+* Open-source tools, libraries, and technologies can be used and are encouraged. The scripts, tooling, and instructions to instantiate any service to be hosted within the AWS environment must be part of the challenge submission.
+* For the scope of this challenge, the AWS environment has outbound access to the internet.
+* For the scope of this challenge, internet-available repositories can be accessed and used (e.g. operating systems, libraries, packages, containers, etc.).
+* Consider the security standards appropriate for receiving, sending, or hosting Personal Identifiable Information and Protected Health Information in your implementation.
+* For the scope of this challenge, subscription-based Software as a Service (SaaS) solutions can be used only if a free trial is available to the government. Respondents must explain in detail the rationale, decision making process, and any evaluations made to select such service. CMS will not pay for anything included as part of the solution. If in doubt, please submit any questions to the Contracting Officer for clarification.
+* CMS will not purchase or accept a purchased license for any product or service.
+* The respondent's solution will be deployed in an AWS environment that may already contain provisioned services or resources in it. The respondent is responsible to account for that possibility.
 
 # 🤷‍♀️ Open Questions
 
